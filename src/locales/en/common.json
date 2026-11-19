@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Full Stack Developer",
+    "titleFirst": "Ayoub",
+    "titleLast": "Deblij",
+    "description": "I build premium web applications with Laravel, React.js, REST APIs. My focus is on reliable architecture, elegant interfaces, and systems designed for real-world business needs.",
+    "ctaProjects": "View Projects",
+    "ctaContact": "Contact Me",
+    "stats": {
+      "projects": "Featured Projects",
+      "technologies": "Core Technologies",
+      "ai": "AI Integration",
+      "api": "API Architecture"
+    }
+  },
+  "about": {
+    "eyebrow": "About Me",
+    "title": "Building modern systems with technical depth and visual precision.",
+    "paragraph1": "I'm Ayoub Deblij, a full-stack developer focused on creating robust digital products using React.js, Laravel, modern APIs, and intelligent workflows.",
+    "paragraph2": "I enjoy transforming complex business needs into clean interfaces, scalable backend logic, and polished user experiences that feel intentional and professional.",
+    "metrics": {
+      "projects": "Professional Projects",
+      "specialization": "Focused Delivery"
+    },
+    "highlights": [
+      {
+        "title": "Full-Stack Product Development",
+        "description": "Designing and delivering complete web applications with clear frontend structure and maintainable backend architecture."
+      },
+      {
+        "title": "Secure Backend Engineering",
+        "description": "Building structured Laravel APIs with authentication, authorization, middleware, and business logic that scales cleanly."
+      },
+      {
+        "title": "AI & Biometric Integration",
+        "description": "Integrating Python services, recognition flows, and intelligent features into practical business platforms."
+      },
+      {
+        "title": "Database & Workflow Design",
+        "description": "Modeling databases and application flows that support reliability, performance, and real operational needs."
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Portfolio",
+    "title": "Selected Projects",
+    "description": "A curated set of projects that reflect my approach to engineering, product thinking, and modern full-stack execution.",
+    "labels": {
+      "privateCaseStudy": "Confidential / Private Case Study",
+      "privateProject": "Private Project",
+      "notPublic": "Not Public",
+      "github": "GitHub",
+      "liveDemo": "Live Demo"
+    },
+    "items": {
+      "insumanage": {
+        "description": "A complete insurance management platform built with Laravel and React.js, including client management, contracts, payments, authentication, and business dashboards."
+      },
+      "attendanceAI": {
+        "description": "An AI-powered biometric attendance system with facial recognition, secure workflows, and scalable communication between frontend, backend, and Python services."
+      },
+      "flowstate": {
+        "description": "An intelligent task management platform powered by local AI models, featuring authentication, real-time streaming, and workflow automation."
+      }
+    }
+  },
+  "skills": {
+    "eyebrow": "Technical Expertise",
+    "title": "Technologies I Work With",
+    "description": "My stack is centered around practical tools and frameworks that support clean delivery, scalable architecture, and modern interfaces.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Database",
+      "ai": "AI & Integration",
+      "tools": "Tools & Deployment",
+      "workflow": "Architecture & Workflow"
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let’s build something valuable.",
+    "description": "I’m available for collaborations, freelance opportunities, and ambitious product ideas that need thoughtful engineering and premium execution.",
+    "cards": {
+      "email": "Email",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    },
+    "cta": "Back To Top"
+  }
+}

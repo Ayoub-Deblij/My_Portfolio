@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Développeur Full Stack",
+    "titleFirst": "Ayoub",
+    "titleLast": "Deblij",
+    "description": "Je développe des applications web premium avec Laravel, React.js, les API REST. Mon approche combine architecture fiable, interfaces élégantes et exécution professionnelle.",
+    "ctaProjects": "Voir les projets",
+    "ctaContact": "Me contacter",
+    "stats": {
+      "projects": "Projets phares",
+      "technologies": "Technologies clés",
+      "ai": "Intégration IA",
+      "api": "Architecture API"
+    }
+  },
+  "about": {
+    "eyebrow": "À propos de moi",
+    "title": "Concevoir des systèmes modernes avec profondeur technique et précision visuelle.",
+    "paragraph1": "Je suis Ayoub Deblij, développeur full-stack spécialisé dans la création de produits web robustes avec React.js, Laravel, des API modernes et des workflows intelligents.",
+    "paragraph2": "J’aime transformer des besoins métiers complexes en interfaces claires, logique backend évolutive et expériences utilisateur soignées.",
+    "metrics": {
+      "projects": "Projets professionnels",
+      "specialization": "Livraison ciblée"
+    },
+    "highlights": [
+      {
+        "title": "Développement produit full-stack",
+        "description": "Conception et livraison d’applications web complètes avec une structure frontend claire et une architecture backend maintenable."
+      },
+      {
+        "title": "Ingénierie backend sécurisée",
+        "description": "Création d’API Laravel structurées avec authentification, autorisation, middleware et logique métier évolutive."
+      },
+      {
+        "title": "Intégration IA et biométrie",
+        "description": "Intégration de services Python, de flux de reconnaissance et de fonctionnalités intelligentes dans des plateformes concrètes."
+      },
+      {
+        "title": "Conception base de données & workflows",
+        "description": "Modélisation de bases de données et de flux applicatifs répondant à des besoins réels de performance et de fiabilité."
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Portfolio",
+    "title": "Projets sélectionnés",
+    "description": "Une sélection de projets qui reflètent mon approche de l’ingénierie, du produit et du développement full-stack moderne.",
+    "labels": {
+      "privateCaseStudy": "Confidentiel / Étude de cas privée",
+      "privateProject": "Projet privé",
+      "notPublic": "Non public",
+      "github": "GitHub",
+      "liveDemo": "Démo en direct"
+    },
+    "items": {
+      "insumanage": {
+        "description": "Une plateforme complète de gestion d’assurance construite avec Laravel et React.js, incluant la gestion des clients, contrats, paiements, authentification et tableaux de bord."
+      },
+      "attendanceAI": {
+        "description": "Un système de présence biométrique alimenté par l’IA avec reconnaissance faciale, workflows sécurisés et communication évolutive entre frontend, backend et services Python."
+      },
+      "flowstate": {
+        "description": "Une plateforme intelligente de gestion des tâches alimentée par des modèles IA locaux, avec authentification, streaming en temps réel et automatisation des workflows."
+      }
+    }
+  },
+  "skills": {
+    "eyebrow": "Expertise technique",
+    "title": "Technologies que j’utilise",
+    "description": "Mon stack est centré sur des outils et frameworks pratiques qui soutiennent une livraison propre, une architecture évolutive et des interfaces modernes.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Base de données",
+      "ai": "IA & Intégration",
+      "tools": "Outils & Déploiement",
+      "workflow": "Architecture & Workflow"
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Construisons quelque chose de précieux.",
+    "description": "Je suis disponible pour des collaborations, des missions freelance et des idées ambitieuses nécessitant une exécution technique soignée.",
+    "cards": {
+      "email": "Email",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    },
+    "cta": "Retour en haut"
+  }
+}

@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+
+    --color-background: #f8f5ef;
+    --color-foreground: #16130f;
+    --color-muted: #6b6257;
+    --color-surface: #fffdf9;
+    --color-surface-2: #f1ece3;
+    --color-border: #ddd3c3;
+    --color-card: rgba(255, 253, 249, 0.72);
+    --color-primary: #181411;
+    --color-primary-text: #fffaf2;
+
+    --color-gold: #b68a2f;
+    --color-gold-soft: #efe1bb;
+    --color-gold-border: rgba(182, 138, 47, 0.28);
+  }
+
+  .dark {
+    color-scheme: dark;
+
+    --color-background: #0d0b09;
+    --color-foreground: #f5efe4;
+    --color-muted: #b2a89a;
+    --color-surface: #171310;
+    --color-surface-2: #211b16;
+    --color-border: #2e261f;
+    --color-card: rgba(23, 19, 16, 0.72);
+    --color-primary: #f3e4bf;
+    --color-primary-text: #16110a;
+
+    --color-gold: #d4af37;
+    --color-gold-soft: rgba(212, 175, 55, 0.16);
+    --color-gold-border: rgba(212, 175, 55, 0.25);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+  @apply bg-background text-foreground antialiased transition-colors duration-300;
+}
+
+  * {
+    box-sizing: border-box;
+  }
+
+  a,
+  button,
+  input,
+  textarea {
+    @apply transition-all duration-300;
+  }
+}
+
+@layer utilities {
+  .container-app {
+    @apply mx-auto max-w-7xl px-6 lg:px-8;
+  }
+
+  .section-space {
+    @apply py-24 md:py-32;
+  }
+
+  .card-premium {
+    @apply rounded-3xl border border-borderColor bg-card backdrop-blur-md shadow-soft;
+  }
+
+  .gold-ring {
+    box-shadow: 0 0 0 1px var(--color-gold-border);
+  }
+
+  .gold-gradient-text {
+    background: linear-gradient(135deg, #8a6720 0%, #d4af37 50%, #f5deb3 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
